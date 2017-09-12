@@ -54,5 +54,5 @@ func main() {
 		sig(1*time.Hour),
 		sig(1*time.Minute),
 	)
-	fmt.Printf("done after %v", time.Since(start))
+	fmt.Printf("done after %v\n", time.Since(start))
 }
